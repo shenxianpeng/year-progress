@@ -1,8 +1,9 @@
-# Hi, I'm Xianpeng Shen 👋🏾💻
+### Hi there 👋
 
-I'm a DevOps/Build Release engineer.
+⏳ Year progress { ████████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 56.63 %
 
+---
 
-## Find me around the web 🌎:
-- Sharing CI/CD & DevOps at my <a href="https://shenxianpeng.github.io">blog</a> 📹
-- Connectd me via <a href="https://www.linkedin.com/in/xianpeng-shen">LinkedIn</a> 💼
+⏰ Updated on Sun, 26 Jul 2020 06:07:19 GMT
+
+![Progress Bar CI](https://github.com/shenxianpeng/shenxianpeng/workflows/Progress%20Bar%20CI/badge.svg)
