@@ -1,4 +1,4 @@
-name: Progress Bar CI
+name: build
 
 on:
   workflow_dispatch:
