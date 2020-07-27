@@ -4,6 +4,6 @@
 
 ---
 
-⏰ Updated on Mon, 27 Jul 2020 01:37:41 GMT
+⏰ Updated on Mon, 27 Jul 2020 01:39:29 GMT
 
-![Progress Bar CI](https://github.com/shenxianpeng/shenxianpeng/workflows/Progress%20Bar%20CI/badge.svg)
+![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)
