@@ -15,18 +15,18 @@ func main(){
 	startTimeOfThisYear := time.Date(thisYear, time.January, 0, 0, 0, 0, 0, time.UTC).UnixNano()
 	endTimeOfThisYear := time.Date(thisYear, time.December, 31, 23, 59, 59, 0, time.UTC).UnixNano()
 
-	var progressOfThisYear = float64(time.Now().UnixNano()-startTimeOfThisYear) /
+	progressOfThisYear := float64(time.Now().UnixNano()-startTimeOfThisYear) /
 		float64(endTimeOfThisYear-startTimeOfThisYear)
 
 	progressBarCapacity := 30.0
 	passedProgressBarIndex := int(math.Floor(progressOfThisYear * progressBarCapacity))
-	var passedProgressBar string
+
+	passedProgressBar := ""
 	for i := 0; i < passedProgressBarIndex; i++ {
 		passedProgressBar = passedProgressBar + "█"
 	}
 
-	var leftProgressBar string
-
+	leftProgressBar := ""
 	for i := 0; i < int(progressBarCapacity) - int(passedProgressBarIndex); i++ {
 		leftProgressBar = leftProgressBar + "▁"
 	}
@@ -39,8 +39,8 @@ func main(){
 
 	README :=
 			"### Hi there 👋 \n\n" +
-			"⏳ Year progress {" + passedProgressBar + leftProgressBar + "} " +strconv.FormatFloat(progressOfThisYear * 100, 'f', 2, 64) + "%\n\n" +
-			"⏰ Updated on " + currentDate + "\n" +
+			"⏳ Year progress { " + passedProgressBar + leftProgressBar + " } " +strconv.FormatFloat(progressOfThisYear * 100, 'f', 2, 64) + " %\n\n" +
+			"⏰ Updated on " + currentDate + " with Golang.\n\n" +
 			"![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)"
 
 	_, err = file.WriteString(README)

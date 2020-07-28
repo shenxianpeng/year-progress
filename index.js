@@ -17,9 +17,7 @@ const readme = `\
 
 ⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
 
----
-
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on ${new Date().toUTCString()} with JavaScript.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)\
 `
