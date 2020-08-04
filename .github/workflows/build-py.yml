@@ -1,9 +1,9 @@
-name: build-js
+name: build-py
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * 1'
+    - cron: '0 */6 * * 2'
 
 jobs:
   build:
@@ -12,12 +12,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js
-      uses: actions/setup-node@v1
+    - name: Use Python
+      uses: actions/setup-python@v1
       with:
-        node-version: '14.x'
+        python-version: 3.8
     - name: Update README.md
-      run: node update_readme.js > README.md
+      run: python update_readme.py
     - name: Commit change & Push
       run: |
           git config user.name 'github-actions[bot]'
