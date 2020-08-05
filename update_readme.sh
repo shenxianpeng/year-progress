@@ -40,18 +40,14 @@ for (( i=1; i <= $passed_progress_bar_index; i++ ))
 do
     new_left_bar+="${left_bar_str}"
 done
-echo $new_left_bar
 
 right_bar_str="_"
 for (( i=1; i <= $left_progress_bar_index; i++ ))
 do
     new_right_bar+="${right_bar_str}"
 done
-echo $new_right_bar
 
 whole_bar="{ $new_left_bar$new_right_bar } $percent_of_this_year %"
-
-echo $whole_bar
 
 ############################################
 # update new content to the readme.md file #
