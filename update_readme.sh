@@ -20,9 +20,9 @@ whole_year_days=$( date_diff "$end_of_this_year" "$start_of_this_year" )
 ##############################################################
 # get the percent of passed year, and generate progress bar. #
 ##############################################################
-progress_of_this_year=$(echo 2k $year_pass_days $whole_year_days /p | dc)   # note: may some OS doesn't exist bc command
-# this also works.
-# progress_of_this_year=$(echo $(( 100 * $year_pass_days / $whole_year_days )) | sed 's/..$/.&/')
+# this also works. but some OS may not exist dc command
+# progress_of_this_year=$(echo 2k $year_pass_days $whole_year_days /p | dc)
+progress_of_this_year=$(echo $(( 100 * $year_pass_days / $whole_year_days )) | sed 's/..$/.&/')
 tmp_percent=$(echo "scale=4; $year_pass_days / $whole_year_days" | bc)
 percent_of_this_year=$(echo "scale=2; ($tmp_percent * 100)/1" | bc)
 
