@@ -38,15 +38,15 @@ left_progress_bar_index=$(echo "30 - $passed_progress_bar_index" | bc)
 # generate progress bar #
 #########################
 left_bar_str="█"
-# for (( i=1; i <= $passed_progress_bar_index; i++ ))
-for i in $(seq 1 $passed_progress_bar_index)
+for (( i=1; i <= $passed_progress_bar_index; i++ ))
+# for i in $(seq 1 $passed_progress_bar_index)
 do
     new_left_bar+="${left_bar_str}"
 done
 
 right_bar_str="_"
-# for (( i=1; i <= $left_progress_bar_index; i++ ))
-for k in $(seq 1 $left_progress_bar_index)
+for (( i=1; i <= $left_progress_bar_index; i++ ))
+# for k in $(seq 1 $left_progress_bar_index)
 do
     new_right_bar+="${right_bar_str}"
 done
