@@ -61,4 +61,4 @@ update_time=$(date '+%Y-%m-%d %H:%M:%S')
 README="### Hi there 👋\n\n⏳ Year progress $whole_bar\n\n⏰ Updated on $update_time with Shell.\n\n![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)"
 
 cat /dev>null > README.md
-echo -e $README >> README.md
+echo -en $README >> README.md
