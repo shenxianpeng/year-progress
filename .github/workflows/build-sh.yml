@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use bc
-      run: sudo agt-get install bc
+      run: sudo apt-get install bc
     - name: Update README.md
       run: sh update_readme.sh
     - name: Commit change & Push
