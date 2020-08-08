@@ -3,14 +3,17 @@
 ##############################################
 # get passed days and whole days of the year #
 ##############################################
-today=$(date +'%e %b')
+
+set -x
+
+today=$(date +'%m %b')
 start_of_this_year='01 Jan'
 end_of_this_year='31 Dec'
 
 date_diff() {
-    d1=$(date -d "$1" +%s)
-    d2=$(date -d "$2" +%s)
-    days=$(( (d1 - d2) / 86400 ))
+    done=$(date -d "$1" +%s)
+    dtwo=$(date -d "$2" +%s)
+    days=$(( (dtwo - done) / 86400 ))
     echo $days
 }
 
