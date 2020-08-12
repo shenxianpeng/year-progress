@@ -1,7 +1,7 @@
-### Hi there 👋
+-en ### Hi there 👋
 
-⏳ Year progress  { ██████████████████▁▁▁▁▁▁▁▁▁▁▁▁ } 61.10 %
+⏳ Year progress { } %
 
-⏰ Updated on 2020-08-11 00:37:07 with Python.
+⏰ Updated on 2020-08-12 00:03:47 with Shell.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)
