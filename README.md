@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-⏳ Year progress { ██████████████████████▁▁▁▁▁▁▁▁ } 74.05 %
+⏳ Year progress  { ██████████████████████▁▁▁▁▁▁▁▁ } 74.52 %
 
-⏰ Updated on Mon, 28 Sep 2020 00:47:08 GMT with JavaScript.
+⏰ Updated on 2020-09-29 00:48:46 with Python.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)
