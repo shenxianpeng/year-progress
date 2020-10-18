@@ -7,14 +7,14 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
-    # - name: Use bc
-    #   run: sudo apt-get install bc
+    - name: Use bc
+      run: sudo apt-get install bc
     - name: Update README.md
-      run: sh update_readme.sh
+      run: bash update_readme.sh
     - name: Commit change & Push
       run: |
           git config user.name 'github-actions[bot]'
