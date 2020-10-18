@@ -23,5 +23,5 @@ update_time = time.strftime('%Y-%m-%d %H:%M:%S')
 
 with open("README.md", 'w', encoding='utf8') as f:
     f.write("### Hi there 👋\n\n⏳ Year progress " + bar + "\n\n⏰ Updated on " + update_time
-            + " with Python.\n\n![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)")
+            + " with Python.\n\n![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)")
     f.close()

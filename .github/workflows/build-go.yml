@@ -17,7 +17,7 @@ jobs:
         with:
           go-version: '1.14.x'
       - name: Update README.md
-        run: go run main.go
+        run: go run update_readme.go
       - name: Commit change & Push
         run: |
           git config user.name 'github-actions[bot]'

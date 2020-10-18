@@ -8,7 +8,7 @@ import (
 	"time"
 )
 
-func main(){
+func main() {
 	t := time.Now()
 	currentDate := t.Format("2006-01-02 15:04:05")
 	thisYear := time.Now().Year()
@@ -27,7 +27,7 @@ func main(){
 	}
 
 	leftProgressBar := ""
-	for i := 0; i < int(progressBarCapacity) - int(passedProgressBarIndex); i++ {
+	for i := 0; i < int(progressBarCapacity)-int(passedProgressBarIndex); i++ {
 		leftProgressBar = leftProgressBar + "▁"
 	}
 
@@ -38,10 +38,10 @@ func main(){
 	defer file.Close()
 
 	README :=
-			"### Hi there 👋 \n\n" +
-			"⏳ Year progress { " + passedProgressBar + leftProgressBar + " } " +strconv.FormatFloat(progressOfThisYear * 100, 'f', 2, 64) + " %\n\n" +
+		"### Hi there 👋 \n\n" +
+			"⏳ Year progress { " + passedProgressBar + leftProgressBar + " } " + strconv.FormatFloat(progressOfThisYear*100, 'f', 2, 64) + " %\n\n" +
 			"⏰ Updated on " + currentDate + " with Golang.\n\n" +
-			"![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg)"
+			"![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)"
 
 	_, err = file.WriteString(README)
 	if err != nil {
