@@ -1,7 +1,7 @@
-### Hi there 👋 
+### Hi there 👋
 
-⏳ Year progress { ███████████████████████████▁▁▁ } 91.01 %
+⏳ Year progress { ███████████████████████████▁▁▁ } 91.27 %
 
-⏰ Updated on 2020-11-29 00:16:37 with Golang.
+⏰ Updated on Mon, 30 Nov 2020 00:44:08 GMT with JavaScript.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)
