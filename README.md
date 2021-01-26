@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-⏳ Year progress { █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 6.59 %
+⏳ Year progress  { ██▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 6.87 %
 
-⏰ Updated on Mon, 25 Jan 2021 01:28:00 GMT with JavaScript.
+⏰ Updated on 2021-01-26 00:54:51 with Python.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)
