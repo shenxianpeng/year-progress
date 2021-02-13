@@ -13,7 +13,7 @@ end_of_this_year='31 Dec'
 date_diff() {
     done=$(date -d "$1" +%s)
     dtwo=$(date -d "$2" +%s)
-    days=$(( (dtwo - done) / 86400 ))
+    days=$(( (done - dtwo) / 86400 ))
     echo $days
 }
 
@@ -30,7 +30,7 @@ tmp_percent=$(echo "scale=4; $year_pass_days / $whole_year_days" | bc)
 percent_of_this_year=$(echo "scale=2; ($tmp_percent * 100)/1" | bc)
 
 bar_capacity=30
-tmp=$(echo "$progress_of_this_year * $bar_capacity" | bc)
+tmp=$(echo "$tmp_percent * $bar_capacity" | bc)
 
 # remove two digits behind the decimal point
 passed_progress_bar_index=${tmp%.*}
