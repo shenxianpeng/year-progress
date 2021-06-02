@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-⏳ Year progress  { ████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 41.48 %
+⏳ Year progress { ████████████__________________ } 42.85 %
 
-⏰ Updated on 2021-06-01 02:51:41 with Python.
+⏰ Updated on 2021-06-02 01:56:45 with Shell.
 
 ![build](https://github.com/shenxianpeng/shenxianpeng/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)
