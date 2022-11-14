@@ -3,7 +3,7 @@ name: build-sh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 24 * 1'
 
 jobs:
   build:

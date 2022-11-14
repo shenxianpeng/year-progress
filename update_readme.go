@@ -41,7 +41,7 @@ func main() {
 		"### Hi there 👋 \n\n" +
 			"⏳ Year progress { " + passedProgressBar + leftProgressBar + " } " + strconv.FormatFloat(progressOfThisYear*100, 'f', 2, 64) + " %\n\n" +
 			"⏰ Updated on " + currentDate + " with Golang.\n\n" +
-			"![build](https://github.com/shenxianpeng/year-progress/workflows/build/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)"
+			"![build](https://github.com/shenxianpeng/year-progress/workflows/build-go/badge.svg) ![Profile views](https://gpvc.arturio.dev/shenxianpeng)"
 
 	_, err = file.WriteString(README)
 	if err != nil {
